@@ -12,7 +12,7 @@ class Magicseaweed():
 
     def near_report(self, time):
         """
-        Get the nearest available forecast
+        Get the next available forecast
         """
         while time.hour % 3 != 0:
             time = time + timedelta(hours=1)
